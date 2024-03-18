@@ -387,7 +387,7 @@ p.bold{
 /*========================== Skill ==========================*/
 #content-skill{
   background-color: #20242F;
-  padding: 130px 100px;
+  padding: 130px 20vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -405,29 +405,40 @@ p.bold{
 }
 
 .card-skill{
-  row-gap: 30px;
-  width: 350px;
-  height: 240px;
-  background-color: #141823;
-  display: flex;
-  align-items: center;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.3); */
+  text-align: center;
   justify-content: center;
-  margin-bottom: 20px;
+  align-items: center;
+  margin: 20px;
+}
+
+
+.card-text {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.container-skill i{
+  font-size: 70px;
+  color: #ffffff;
+}
+
+.container-skill1 i{
+  font-size: 70px;
+  color: #ffffff;
 }
 
 .container-skill{
-  padding: 35px 50px ;
-
+  padding: 35px ;
 }
 
 .container-skill p {
   font-weight: 700;
-  color: #27AE60;
-}
-
-p.percentage{
-  font-size: 64px;
   color: #535353;
+  font-size: 20px;
 }
 
 .card-skill::after{

@@ -123,9 +123,9 @@ button.addEventListener('click', function (event) {
 
 function SendMail(){
   var parms = {
-    from_name : document.getElementById("name").value,
-    email_id : document.getElementById("email").value,
-    message : document.getElementById("message").value
+    from_name : document.getElementById("name").value.trim(),
+    email_id : document.getElementById("email").value.trim(),
+    message : document.getElementById("message").value.trim()
   }
   
   if(!parms.from_name || !parms.email_id || !parms.message){
