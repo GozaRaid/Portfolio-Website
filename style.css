@@ -446,16 +446,6 @@ p.percentage{
   gap: 20px;
 }
 
-.tittle-contact hr{
-  border: none;
-  width: 120px;
-  height: 5px;
-  background-color: #FEFEFE;
-  border-radius: 10px;
-  margin-bottom: 20px;
-}
-
-
 textarea.contact-input {
   resize: none;
   padding-top: 15px;
@@ -617,6 +607,13 @@ textarea.contact-input {
   }
   .home-part-2{
     order: 1;
+  }
+  /* ============= Contact ============= */
+  #content-contact{
+    padding: 100px 20px;
+  }
+  .contact-input{
+    width: 90vw;
   }
 
   /* ============= About Me ============= */

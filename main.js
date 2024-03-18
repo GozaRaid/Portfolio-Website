@@ -1,10 +1,10 @@
-window.onload = function() {
-  window.scrollTo(0, 0);
-}
+// window.onload = function() {
+//   window.scrollTo(0, 0);
+// }
 
-window.onbeforeunload = function() {
-  window.location.reload(false);
-}
+// window.onbeforeunload = function() {
+//   window.location.reload(false);
+// }
 
 //FadeinSection
 document.addEventListener('DOMContentLoaded', function() {
@@ -110,7 +110,7 @@ var script = document.createElement('script');
 script.src = "https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js";
 script.onload = function() {
   emailjs.init({
-    publicKey: "yXQSNbLVMqzgtjElu"
+    publicKey: "YEf6kqse4-p32OAkU"
   });
 };
 document.head.appendChild(script);
