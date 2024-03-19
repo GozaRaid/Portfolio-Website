@@ -1,10 +1,10 @@
-// window.onload = function() {
-//   window.scrollTo(0, 0);
-// }
+window.onload = function() {
+  window.scrollTo(0, 0);
+}
 
-// window.onbeforeunload = function() {
-//   window.location.reload(false);
-// }
+window.onbeforeunload = function() {
+  window.location.reload(false);
+}
 
 //FadeinSection
 document.addEventListener('DOMContentLoaded', function() {
