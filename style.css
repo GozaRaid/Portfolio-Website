@@ -413,8 +413,8 @@ p.bold{
   justify-content: center;
   align-items: center;
   margin: 20px;
+  background-color: #141823;
 }
-
 
 .card-text {
   font-size: 18px;
@@ -426,18 +426,13 @@ p.bold{
   color: #ffffff;
 }
 
-.container-skill1 i{
-  font-size: 70px;
-  color: #ffffff;
-}
-
 .container-skill{
   padding: 35px ;
 }
 
 .container-skill p {
   font-weight: 700;
-  color: #535353;
+  color: #ffffff;
   font-size: 20px;
 }
 
@@ -546,6 +541,14 @@ textarea.contact-input {
     padding: 80px 180px;
   }
 
+  /* ============= Skill ============= */
+  #content-skill{
+    padding: 130px 10vw;
+  }
+  .card-skill{
+    margin: 15px;
+  }
+
    /* ============= Contact ============= */
   #content-contact{
     padding: 100px 40px;
@@ -582,6 +585,14 @@ textarea.contact-input {
   /* ============= Home ============= */
   #content-home{
     padding: 80px 60px;
+  }
+
+  /* ============= Skill ============= */
+  #content-skill{
+    padding: 130px 5vw;
+  }
+  .card-skill{
+    margin: 10px;
   }
 }
 
@@ -632,7 +643,23 @@ textarea.contact-input {
     padding: 60px 40px;
   }
 
+  /* ============= Skill ============= */
+  #content-skill{
+    padding: 130px 3vw;
+  }
 
+  .card-skill{
+    width: 170px;
+    margin: 8px;
+  }
+
+  .container-skill i{
+    font-size: 60px;
+  }
+
+  .container-skill p {
+    font-size: 18px;
+  }
 }
 
 @media screen and (min-width: 571px){
