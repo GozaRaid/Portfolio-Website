@@ -132,7 +132,7 @@ function SendMail(){
     alert("Please fill out all fields");
     return;
   } else {
-    emailjs.send("service_lgbpk25","template_c4fkpk8",parms)
+    emailjs.send("service_v1a7gu5","template_c4fkpk8",parms)
     .then(alert("Email sent successfully!"))
     .catch(function(err){
       alert("Failed to send email: " + err);
