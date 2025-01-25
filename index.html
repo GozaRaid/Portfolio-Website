@@ -1,191 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Welcome</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
-        <link rel="icon" type="image/png" href="/component/icon.png">
-      </head>
-    <body>
-        <nav id="navbar">
-          <a href="#top" class="navbar-tittle">
-            <h3 class="tittle-first">
-              Goza
-            </h3>
-            <h3 class="tittle-last">
-              AR
-            </h3>
-          </a>
-          <div class="desktop">
-            <ul class="nav-links">
-              <li><a href="#content-about" class = "active">About</a></li>
-              <li><a href="#content-services" class="">Services</a></li>
-              <li><a href="#content-skill" class="">My Skill</a></li>
-            </ul>
-          </div>
-          <div class="desktop">
-            <a href="#content-contact">
-              <button class="button">Contact me</button>
-            </a>
-          </div>
-            <button class="hamburger-lines">
-              <div class="bar"></div>
-            </button>
-        </nav>
-    
-        <nav class="nav-mobile">
-          <a href="#content-about" class = "">About</a>
-          <a href="#content-services" class="">Services</a>
-          <a href="#content-skill" class="">My Skill</a>
-          <a href="#content-contact">
-            <button class="button">Contact me</button>
-          </a>
-        </nav>
-    
-      <section id="content-home">
-        <div class="home-part-1 to-fade-in">
-          <div class="main-text">
-            <h1>Hi, I am <br> Hafidz Hito Baihaqi</h1>
-            <p>Backend Developer</p>
-          </div>
-        </div>
-        <div class="home-part-2 to-fade-in">
-          <div class="elipse-1"></div>
-        </div>
-      </section>
-    
-      <section id="content-about">
-        <div class="about-part-1 to-fade-in">
-          <h1>About me</h1>
-          <p>Meet Hafidz Hito, a motivated individual with a passion for progress <br> and growth as a Developer. Currently, I'm a student at Telkom <br> University Majoring in Informatics. As a Newbie Full Stack Developer, I want to learn a lot of new things by creating a various Project.</p>
-        </div>
-        
-        <div class="grid">
-            <div class="card-about to-fade-in">
-              <div class="elipse-2"></div>
-              <div class="container-about">
-                  <p class="bold">Full Name</p>
-                  <p>Hafidz Hito Baihaqi</p>
-              </div>
-            </div>
-    
-            <div class="card-about to-fade-in">
-              <div class="elipse-2"></div>
-              <div class="container-about">
-                  <p class="bold">Hobby</p>
-                  <p>Studying</p>
-              </div>
-            </div>
-        </div>
-      </section>
-    
-      <section id="content-services">
-        <div class="rectangle-services to-fade-in">
-          <h1>What i do?</h1>
-          <div class="flex-container">
-    
-            <div class="card-services to-fade-in">
-              <div class="container-services">
-                <div class="web-dev-icon"></div>
-                <h2>Web <br> Development</h2>
-              </div>
-            </div>
-    
-            <div class="card-services to-fade-in">
-              <div class="container-services">
-                <div class="dev-icon"></div>
-                <h2>Coming <br> Soon</h2>
-              </div>
-            </div>
-    
-            <div class="card-services to-fade-in">
-              <div class="container-services">
-                <div class="dev-icon"></div>
-                <h2>Coming <br> Soon</h2>
-              </div>
-            </div>
-    
-          </div>
-        </div>
-      </section>
-    
-      <section id="content-skill">
-        <div class="rectangle-skill to-fade-in">
-          <h1>My Skill</h1>
-          <div class="flex-container2">
-    
-            <div class="card-skill to-fade-in">
-              <div class="container-skill">
-                <i class="fa-brands fa-golang"></i>
-                <p class="card-text">Golang</p>
-              </div>
-            </div>
-    
-            <div class="card-skill to-fade-in">
-              <div class="container-skill">
-                <i class="fa-brands fa-html5"></i>
-                <p class="card-text">HTML</p>
-              </div>
-            </div>
-    
-            <div class="card-skill to-fade-in">
-              <div class="container-skill">
-                <i class="fa-brands fa-css3-alt"></i>
-                <p class="card-text">CSS</p>
-              </div>
-            </div>
-    
-            <div class="card-skill to-fade-in">
-              <div class="container-skill">
-                <i class="fa-solid fa-database"></i>
-                <p class="card-text">SQL</p>
-              </div>
-            </div>
-    
-            <div class="card-skill to-fade-in">
-              <div class="container-skill">
-                <i class="fa-brands fa-js"></i>
-                <p class="card-text">JavaScript</p>
-              </div>
-            </div>
-    
-            <div class="card-skill to-fade-in">
-              <div class="container-skill">
-                <i class="fa-solid fa-code"></i>
-                <p class="card-text">C++</p>
-              </div>
-            </div>
-    
-          </div>
-        </div>
-      </section>
-    
-      <section id="content-contact">
-        <form action="" class="contact to-fade-in">
-          <div class="tittle-contact">
-            <h1>Get in touch</h1>
-          </div>
-          <input id="name" name="name" placeholder="Your Name" class="contact-input" required>
-          <input id="email" name="email" placeholder="Your Email" class="contact-input" required>
-          <textarea id="message" name="message" placeholder="Your Message" class="contact-input" required></textarea>
-          <button id="sendmail" type="submit" class="button">Submit</button>
-        </form>
-      </section>
-      
-      <footer id="footer">
-        <ul class="foot-link">
-          <li><a href="https://www.linkedin.com/in/hafidz-hito-baihaqi-891598258/" target="_blank"><i class="fa-brands fa-linkedin fa-xl"></i></a></li>
-          <li><a href="https://github.com/GozaRaid" target="_blank"><i class="fa-brands fa-github fa-xl"></i></a></li>
-          <li><a href="mailto:hafidzhitobaihaqi@gmail.com" target="_blank"><i class="fa-regular fa-envelope fa-xl"></i></a></li>
-          <li><a href="https://t.me/ke0hito" target="_blank"><i class="fa-brands fa-telegram fa-xl"></i></a></li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="icon" type="image/png" href="/component/icon.png" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <a href="#top" class="navbar-tittle">
+        <h3 class="tittle-first">Goza</h3>
+        <h3 class="tittle-last">AR</h3>
+      </a>
+      <div class="desktop">
+        <ul class="nav-links">
+          <li><a href="#content-about" class="active">About</a></li>
+          <li><a href="#content-services" class="">Services</a></li>
+          <li><a href="#content-skill" class="">My Skill</a></li>
         </ul>
-    
+      </div>
+      <div class="desktop">
+        <a href="#content-contact">
+          <button class="button">Contact me</button>
+        </a>
+      </div>
+      <button class="hamburger-lines">
+        <div class="bar"></div>
+      </button>
+    </nav>
+
+    <nav class="nav-mobile">
+      <a href="#content-about" class="">About</a>
+      <a href="#content-services" class="">Services</a>
+      <a href="#content-skill" class="">My Skill</a>
+      <a href="#content-contact">
+        <button class="button">Contact me</button>
+      </a>
+    </nav>
+
+    <section id="content-home">
+      <div class="home-part-1 to-fade-in">
+        <div class="main-text">
+          <h1>
+            Hi, I am <br />
+            Hafidz Hito Baihaqi
+          </h1>
+          <p>Backend Developer</p>
+        </div>
+      </div>
+      <div class="home-part-2 to-fade-in">
+        <div class="elipse-1"></div>
+      </div>
+    </section>
+
+    <section id="content-about">
+      <div class="about-part-1 to-fade-in">
+        <h1>About me</h1>
         <p>
-          <span>Created by GozaRaid. All right reserved</span>
+          Meet Hafidz Hito, a motivated individual with a passion for progress
+          <br />
+          and growth as a Developer. Currently, I'm a student at Telkom <br />
+          University Majoring in Informatics. As a Newbie Full Stack Developer,
+          I want to learn a lot of new things by creating a various Project.
         </p>
-      </footer>
-    </body> 
-    <script src="main.js"></script>
+      </div>
+
+      <div class="grid">
+        <div class="card-about to-fade-in">
+          <div class="elipse-2"></div>
+          <div class="container-about">
+            <p class="bold">Full Name</p>
+            <p>Hafidz Hito Baihaqi</p>
+          </div>
+        </div>
+
+        <div class="card-about to-fade-in">
+          <div class="elipse-2"></div>
+          <div class="container-about">
+            <p class="bold">Hobby</p>
+            <p>Studying</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="content-services">
+      <div class="rectangle-services to-fade-in">
+        <h1>What i do?</h1>
+        <div class="flex-container">
+          <div class="card-services to-fade-in">
+            <div class="container-services">
+              <div class="web-dev-icon"></div>
+              <h2>
+                Web <br />
+                Development
+              </h2>
+            </div>
+          </div>
+
+          <div class="card-services to-fade-in">
+            <div class="container-services">
+              <div class="dev-icon"></div>
+              <h2>
+                Coming <br />
+                Soon
+              </h2>
+            </div>
+          </div>
+
+          <div class="card-services to-fade-in">
+            <div class="container-services">
+              <div class="dev-icon"></div>
+              <h2>
+                Coming <br />
+                Soon
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="content-skill">
+      <div class="rectangle-skill to-fade-in">
+        <h1>My Skill</h1>
+        <div class="flex-container2">
+          <div class="card-skill to-fade-in">
+            <div class="container-skill">
+              <i class="fa-brands fa-golang"></i>
+              <p class="card-text">Golang</p>
+            </div>
+          </div>
+
+          <div class="card-skill to-fade-in">
+            <div class="container-skill">
+              <i class="fa-brands fa-html5"></i>
+              <p class="card-text">HTML</p>
+            </div>
+          </div>
+
+          <div class="card-skill to-fade-in">
+            <div class="container-skill">
+              <i class="fa-brands fa-css3-alt"></i>
+              <p class="card-text">CSS</p>
+            </div>
+          </div>
+
+          <div class="card-skill to-fade-in">
+            <div class="container-skill">
+              <i class="fa-solid fa-database"></i>
+              <p class="card-text">SQL</p>
+            </div>
+          </div>
+
+          <div class="card-skill to-fade-in">
+            <div class="container-skill">
+              <i class="fa-brands fa-js"></i>
+              <p class="card-text">JavaScript</p>
+            </div>
+          </div>
+
+          <div class="card-skill to-fade-in">
+            <div class="container-skill">
+              <i class="fa-solid fa-code"></i>
+              <p class="card-text">C++</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="content-contact">
+      <form action="" class="contact to-fade-in">
+        <div class="tittle-contact">
+          <h1>Get in touch</h1>
+        </div>
+        <input
+          id="name"
+          name="name"
+          placeholder="Your Name"
+          class="contact-input"
+          required
+        />
+        <input
+          id="email"
+          name="email"
+          placeholder="Your Email"
+          class="contact-input"
+          required
+        />
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Your Message"
+          class="contact-input"
+          required
+        ></textarea>
+        <button id="sendmail" type="submit" class="button">Submit</button>
+      </form>
+    </section>
+
+    <footer id="footer">
+      <ul class="foot-link">
+        <li>
+          <a
+            href="https://www.linkedin.com/in/hafidz-hito-baihaqi-891598258/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin fa-xl"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://github.com/GozaRaid" target="_blank"
+            ><i class="fa-brands fa-github fa-xl"></i
+          ></a>
+        </li>
+        <li>
+          <a href="mailto:hafidzhitobaihaqi@gmail.com" target="_blank"
+            ><i class="fa-regular fa-envelope fa-xl"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://t.me/ke0hito" target="_blank"
+            ><i class="fa-brands fa-telegram fa-xl"></i
+          ></a>
+        </li>
+      </ul>
+
+      <p>
+        <span>Created by GozaRaid. All right reserved</span>
+      </p>
+    </footer>
+  </body>
+  <script src="main.js"></script>
 </html>
